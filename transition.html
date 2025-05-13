@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+   section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-content: center;
+    height: 100dvh;
+    background-color: #cc313d;
+   }
+   .box {
+    background-color: #f7c5cc;
+    width: 400px;
+    height: 400px;
+    display: grid;
+    place-items: center;
+    border: 3px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* transition: all 0.3s ease-in-out; */
+   }
+   .box:hover {
+    background-color: white;
+    width: 600px;
+   }
+  </style>
+ </head>
+ <body>
+  <section>
+   <div class="box">TRANSITION</div>
+  </section>
+ </body>
+</html>

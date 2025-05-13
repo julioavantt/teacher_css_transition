@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+   section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-content: center;
+    height: 100dvh;
+    background-color: #cc313d;
+   }
+   .box {
+    background-color: #f7c5cc;
+    width: 200px;
+    height: 200px;
+    display: grid;
+    place-items: center;
+    border: 3px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   .scale {
+    transform: scale(1.3);
+   }
+   .translate {
+    transform: translate(-100px, 200px);
+   }
+   .skew {
+    transform: skew(-130deg);
+   }
+   .rotate {
+    transform: rotate(45deg);
+   }
+  </style>
+ </head>
+ <body>
+  <section>
+   <div class="box">NORMAL</div>
+   <div class="box scale">SCALE</div>
+   <div class="box translate">TRANSLATE</div>
+   <div class="box skew">SKEW</div>
+   <div class="box rotate">ROTATE</div>
+  </section>
+ </body>
+</html>

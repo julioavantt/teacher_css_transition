@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+   section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-content: center;
+    height: 100dvh;
+    background-color: #cc313d;
+   }
+   .box {
+    width: 400px;
+    height: 400px;
+    display: grid;
+    place-items: center;
+    border: 3px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   .one {
+    background: radial-gradient(#cc313d, #f7c5cc);
+   }
+   .two {
+    background: linear-gradient(#cc313d, #f7c5cc);
+   }
+   .three {
+    background: repeating-radial-gradient(#cc313d, #f7c5cc 50px);
+   }
+  </style>
+ </head>
+ <body>
+  <section>
+   <div class="box one">ONE</div>
+   <div class="box two">TWO</div>
+   <div class="box three">THREE</div>
+  </section>
+ </body>
+</html>
